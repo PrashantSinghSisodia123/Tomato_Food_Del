@@ -1,6 +1,6 @@
 .header-container{
     
-background: url('\header_img.png') no-repeat center;
+background: url('/header_img.png') no-repeat center;
 
 margin: 30px auto ;
 background-size: cover;
