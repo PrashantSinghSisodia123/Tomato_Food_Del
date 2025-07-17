@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { useContext } from 'react'
 
 import { Profiler } from 'react'
-import { StoreContext } from '../../context/storeContext.jsx'
+import { StoreContext } from '../../context/StoreContext.jsx'
 
 
 
