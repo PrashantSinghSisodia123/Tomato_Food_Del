@@ -1,0 +1,35 @@
+.food-display-container {
+    margin-top: 30px;
+    padding: 0 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    animation: delayed-visibility 3s;
+   
+}
+
+
+.food-display-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
+    gap:30px;
+    row-gap: 50px;
+  
+   
+}
+
+.food-display-container h2{
+    margin-bottom: 40px;
+}
+@media(max-width:600px){
+.food-display-container h2{
+    font-size: 5vw;
+}
+}
+
+@media(max-width:400px){
+    .food-display-list{
+        grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    }
+
+}

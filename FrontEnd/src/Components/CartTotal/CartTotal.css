@@ -1,0 +1,52 @@
+.cart_total-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+}
+.cart-total-header{
+    font-family:Arial;
+}
+.cart-total-display{
+    display: flex;
+    flex-direction: column;
+}
+.cart-total-subtotal ,.cart-total-delivery-fee,.cart-total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 20px;
+    color: #808080;
+    margin-top: 10px;
+}
+.horizontal-line{
+    background-color: #808080;
+    border: none;
+    height: 1px;
+    margin-top: 10px;
+}
+.proceed-to-checkout-btn{
+    width: max(200px,15vw);
+    font-size: max(10px,0.8vw);
+    margin-top: 20px ;
+    background-color: tomato;
+    color: white;
+    padding: 12px 0px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: backgroud-color 0.3s,transform 0.2s,box-shadow 0.1s;
+    white-space: nowrap;        /* Prevents the text from wrapping */
+  overflow: hidden;           /* Hides the overflowed text */
+  text-overflow: ellipsis;    /* Adds "..." when text overflows */
+    
+}
+.proceed-to-checkout-btn:hover{
+    background-color: rgb(247, 67, 35);}
+
+.proceed-to-checkout-btn:active{
+transform: translateY(2px); /* Pushes the button down */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

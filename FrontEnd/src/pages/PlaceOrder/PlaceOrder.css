@@ -1,0 +1,62 @@
+.place-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+    gap:max(12vw,20px);
+}
+.place-holder-right{
+    
+    max-width: (40%,500px);
+   width: 100%;
+    
+}
+.place-holder-left{
+  width: 100%;
+  
+  max-width: (30%,500px);  
+} 
+
+.place-holder-left .title{
+font-size: 30px;
+font-weight: 600;
+margin-bottom: 50px;
+font-family:Arial;
+
+}
+.place-holder-left input{
+    margin-bottom: 15px;
+    width: 100%;
+    padding:10px;
+    border:1px solid #c5c5c5 ;
+    border-radius:4px ;
+    outline-color: tomato;
+}
+.place-holder-left .multiline-inputs{
+    display: flex;
+    gap: 10px;
+}
+
+.proceed-to-payment-btn{
+    width: max(200px,15vw);
+    font-size: max(10px,0.8vw);
+    margin-top: 20px ;
+    background-color: tomato;
+    color: white;
+    padding: 12px 0px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: backgroud-color 0.3s,transform 0.2s,box-shadow 0.1s;
+    white-space: nowrap;        /* Prevents the text from wrapping */
+  overflow: hidden;           /* Hides the overflowed text */
+  text-overflow: ellipsis;    /* Adds "..." when text overflows */
+    
+}
+.proceed-to-paymentt-btn:hover{
+    background-color: rgb(247, 67, 35);}
+
+.proceed-to-payment-btn:active{
+transform: translateY(2px); /* Pushes the button down */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

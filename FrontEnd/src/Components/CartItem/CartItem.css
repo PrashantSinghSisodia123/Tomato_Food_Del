@@ -1,0 +1,16 @@
+.cart-item{
+    font-size: max(1vw,12px);
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    width: 100%;
+    align-items: center;
+}
+.cart-item-image{
+    width: 50px;
+}
+.cart-item-hr{
+    margin: 10px 0px;
+}
+.cart-item-remove{
+    cursor: pointer;
+}

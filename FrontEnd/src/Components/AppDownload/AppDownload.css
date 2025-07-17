@@ -1,0 +1,36 @@
+.app-download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.app-download-text-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.app-download-txt1 ,.app-download-txt2{
+    font-weight: 700;
+    font-family:  sans-serif;
+    font-size: min(6vw,40px);
+    white-space: nowrap;
+}
+.app-download-btn-area{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.app-download-google-play-btn,.app-download-app-store-btn{
+width:min(30vw,200px) ;
+cursor: pointer;
+transition:transform 0.3s ease;
+
+}
+.app-download-app-store-btn:hover{
+    transform: scale(1.05);
+}
+.app-download-google-play-btn:hover{
+    transform: scale(1.05);
+}

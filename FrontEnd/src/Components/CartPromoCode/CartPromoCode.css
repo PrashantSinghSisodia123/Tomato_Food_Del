@@ -1,0 +1,65 @@
+.promocode-btn{
+    background-color: black;
+    color: white;
+    padding: 12px 5px;
+    border: none;
+    border-radius: 5px;
+    
+    cursor: pointer;
+    transition: transform 0.3s ,box-shadow 0.1s;
+    width:max(10vw,120px);
+} 
+.promocode-btn:hover{
+    transform:scale(1.02) ;
+    
+}
+.promocode-btn:active{
+transform: translateY(2px); /* Pushes the button down */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+.promocode-input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    
+    
+}
+.promocode-input:focus{
+    border: none; /* Removes the border when the input is focused */
+  outline: none; /* Removes the outline (optional, but usually needed) */
+}
+
+.promocode{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.promocode-text{
+    color: #808080;
+    margin-bottom: 10px;
+    
+    font-weight: 500;
+}
+.promocode-entry-field{
+    background-color:#ebeaea ;
+    width:min(30vw,760px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+
+@media(max-width:767px){
+   .promocode{
+    align-items: start;
+   } 
+   .promocode-entry-field{
+    width:80vw
+   }
+   .promocode-btn{
+    width:30vw
+   }
+}

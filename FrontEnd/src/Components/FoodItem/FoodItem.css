@@ -1,0 +1,86 @@
+.food-item-img{
+    border-radius: 15px 15px 0px 0px ;
+    width: 100%;
+    
+}
+.food-item-img-container{
+    position: relative;
+    width: 100%;
+}
+.food-item {
+ width: 100%;
+ border-radius: 15px;
+ box-shadow: 0px 0px 10px #00000015;
+ transition: 0.3;
+ animation: fadeIn 1s ;
+}
+
+.food-item-name-rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+    
+}
+.food-item-name-rating img{
+    width: 20%;
+}
+.food-item-description{
+    margin-top: 5px;
+    font-style: oblique;
+    color: #676767;
+    font-size: 14px;
+}
+.food-item-price{
+    margin-top: 10px;
+    color: tomato;
+    font-size: 22px;
+}
+.add-to-cart-sign{
+    width: 13%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: none;
+    font-size: 170%;
+    background-color: white;
+    position: absolute;
+    right: 5%;
+    top: 75%;
+    
+}
+.food-item-info{
+padding:20px;
+}
+.manipulate-item-count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+    align-items: center;
+    position: absolute;
+    right: 5%;
+    top: 80%;
+    background-color: white;
+    padding: 1.5%;
+    border-radius: 25%;
+    border: none;
+    aspect-ratio: 2.7;
+    border-radius: 50% / 100%;
+}
+.manipulate-icon{
+    width: 34%;
+    
+}
+@media(max-width:950px){
+
+.manipulate-item-count{
+    right: 5%;
+    top: 75%;
+    
+    
+}
+}
